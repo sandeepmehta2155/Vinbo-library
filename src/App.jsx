@@ -110,8 +110,9 @@ export default function App() {
 
       <nav className="nav">
         <ul className="List">
-          {listItem.map((item) => (
+          {listItem.map((item, index) => (
             <li
+              key={index}
               className="listItems"
               onClick={() => {
                 if (item === "Avatar")

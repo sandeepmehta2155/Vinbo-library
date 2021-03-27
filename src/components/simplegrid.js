@@ -52,16 +52,16 @@ export default function SimpleGrid() {
           the width of the center column.
         </p>
       </div>
-      <div class="container">
-        <div class="row3col2wid">
-          <div class="col">1 of 3</div>
-          <div class="col">2 of 3 (wider)</div>
-          <div class="col">3 of 3</div>
+      <div className="container">
+        <div className="row3col2wid">
+          <div className="col">1 of 3</div>
+          <div className="col">2 of 3 (wider)</div>
+          <div className="col">3 of 3</div>
         </div>
-        <div class="row3col2wider">
-          <div class="col">1 of 3</div>
-          <div class="col">2 of 3 (wider)</div>
-          <div class="col">3 of 3</div>
+        <div className="row3col2wider">
+          <div className="col">1 of 3</div>
+          <div className="col">2 of 3 (wider)</div>
+          <div className="col">3 of 3</div>
         </div>
       </div>
       <div className="card">
@@ -71,16 +71,16 @@ export default function SimpleGrid() {
           width of their content.
         </p>
       </div>
-      <div class="container">
-        <div class="row3colmax-content">
-          <div class="col">1 of 3</div>
-          <div class="col">Variable width content</div>
-          <div class="col col-lg-2">3 of 3</div>
+      <div className="container">
+        <div className="row3colmax-content">
+          <div className="col">1 of 3</div>
+          <div className="col">Variable width content</div>
+          <div className="col col-lg-2">3 of 3</div>
         </div>
-        <div class="row3col1widmax-content">
-          <div class="col">1 of 3</div>
-          <div class="col">Variable width content</div>
-          <div class="col col-lg-2">3 of 3</div>
+        <div className="row3col1widmax-content">
+          <div className="col">1 of 3</div>
+          <div className="col">Variable width content</div>
+          <div className="col col-lg-2">3 of 3</div>
         </div>
       </div>
       <h1>Alignment</h1>
@@ -89,29 +89,29 @@ export default function SimpleGrid() {
         columns.
       </p>
 
-      <div class="container">
-        <div class="rowgridarea">
-          <div class="col align-self-start">One of three columns</div>
-          <div class="col align-self-center">One of three columns</div>
-          <div class="col align-self-end">One of three columns</div>
+      <div className="container">
+        <div className="rowgridarea">
+          <div className="col align-self-start">One of three columns</div>
+          <div className="col align-self-center">One of three columns</div>
+          <div className="col align-self-end">One of three columns</div>
         </div>
       </div>
       <h1>Horizontal alignment</h1>
-      <div class="horizontalalignment">
-        <div class="col-a1">One of two columns</div>
-        <div class="col-a2">One of two columns</div>
+      <div className="horizontalalignment">
+        <div className="col-a1">One of two columns</div>
+        <div className="col-a2">One of two columns</div>
 
-        <div class="col-b1">One of two columns</div>
-        <div class="col-b2">One of two columns</div>
+        <div className="col-b1">One of two columns</div>
+        <div className="col-b2">One of two columns</div>
 
-        <div class="col-c1">One of two columns</div>
-        <div class="col-c2">One of two columns</div>
+        <div className="col-c1">One of two columns</div>
+        <div className="col-c2">One of two columns</div>
 
-        <div class="col-d1">One of two columns</div>
-        <div class="col-d2">One of two columns</div>
+        <div className="col-d1">One of two columns</div>
+        <div className="col-d2">One of two columns</div>
 
-        <div class="col-e1">One of two columns</div>
-        <div class="col-e2">One of two columns</div>
+        <div className="col-e1">One of two columns</div>
+        <div className="col-e2">One of two columns</div>
       </div>
     </div>
   );

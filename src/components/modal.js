@@ -197,7 +197,7 @@ export default function Modal() {
               width="60"
               height="60"
               fill="blue"
-              class="bi bi-cart-check-fill"
+              className="bi bi-cart-check-fill"
               viewBox="0 0 16 16"
             >
               <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z" />
@@ -264,7 +264,7 @@ export default function Modal() {
               width="60"
               height="60"
               fill="blue"
-              class="bi bi-bell-fill"
+              className="bi bi-bell-fill"
               viewBox="0 0 16 16"
             >
               <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
@@ -329,7 +329,7 @@ export default function Modal() {
             <img
               src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg"
               alt="loading"
-              class="img-fluid"
+              className="img-fluid"
               width="50%"
             />
             <p>
