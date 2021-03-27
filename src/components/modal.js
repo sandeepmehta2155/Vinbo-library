@@ -42,7 +42,7 @@ export default function Modal() {
             </span>
           </h2>
           <hr />
-          <body> Modal body </body>
+          <p> Modal body </p>
           <hr />
           <button
             className="btn btn-dark"
@@ -87,7 +87,7 @@ export default function Modal() {
             </span>
           </h2>
           <hr />
-          <body style={{ maxHeight: "calc(80vh - 200px)", overflowY: "auto" }}>
+          <div style={{ maxHeight: "calc(80vh - 200px)", overflowY: "auto" }}>
             <p>
               Some text to enable scrolling.. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -140,7 +140,7 @@ export default function Modal() {
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-          </body>
+          </div>
           <hr />
           <button
             className="btn btn-light"
@@ -191,7 +191,7 @@ export default function Modal() {
             </span>
           </h2>
           <hr />
-          <body>
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="60"
@@ -206,7 +206,7 @@ export default function Modal() {
             <p>
               No pressure, your product will be waiting for you in the cart.
             </p>
-          </body>
+          </div>
 
           <hr />
           <button
@@ -258,7 +258,7 @@ export default function Modal() {
             </span>
           </h2>
           <hr />
-          <body>
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="60"
@@ -273,7 +273,7 @@ export default function Modal() {
               Do you want to receive the push notification about the newest
               posts?
             </p>
-          </body>
+          </div>
 
           <hr />
           <button
@@ -325,7 +325,7 @@ export default function Modal() {
             </span>
           </h2>
           <hr />
-          <body>
+          <div>
             <img
               src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg"
               alt="loading"
@@ -340,7 +340,7 @@ export default function Modal() {
               itaque voluptate nesciunt laborum incidunt. Officia, quam
               consectetur. Earum eligendi aliquam illum alias.
             </p>
-          </body>
+          </div>
 
           <hr />
           <button
@@ -392,12 +392,11 @@ export default function Modal() {
             </span>
           </h2>
           <hr />
-          <body>
-            <input type="text" id="txt" placeholder="    Name" />
-            <br />
-            <br />
-            <input type="email" id="email" placeholder="    email" />
-          </body>
+
+          <input type="text" id="txt" placeholder="    Name" />
+          <br />
+          <br />
+          <input type="email" id="email" placeholder="    email" />
 
           <hr />
           <input type="checkbox" />
@@ -418,14 +417,16 @@ export default function Modal() {
           </button>
         </div>
       </div>
-      <span style={{ visibility: "hidden" }}>
-        {visiblity === "visible" && (document.body.style.opacity = 0.8)}
-        {visiblity === "hidden" && (document.body.style.opacity = 1)}
-      </span>
-      <span style={{ visibility: "hidden" }}>
-        {visModal2 === "visible" && (document.body.style.opacity = 0.8)}
-        {visModal2 === "hidden" && (document.body.style.opacity = 1)}
-      </span>
+      <>
+        <span style={{ visibility: "hidden" }}>
+          {visiblity === "visible" && (document.body.style.opacity = 0.8)}
+          {visiblity === "hidden" && (document.body.style.opacity = 1)}
+        </span>
+        <span style={{ visibility: "hidden" }}>
+          {visModal2 === "visible" && (document.body.style.opacity = 0.8)}
+          {visModal2 === "hidden" && (document.body.style.opacity = 1)}
+        </span>
+      </>
     </div>
   );
 }
