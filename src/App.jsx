@@ -16,7 +16,7 @@ import { useState } from "react";
 
 export default function App() {
   // const [dislayItem, setDisplayitem] = useState();
-  const [displayItemDocs, setDisplayItemDocs] = useState(<Modal />);
+  const [displayItemDocs, setDisplayItemDocs] = useState(<Avator />);
   const listItem = [
     "Avatar",
     "Alert",
