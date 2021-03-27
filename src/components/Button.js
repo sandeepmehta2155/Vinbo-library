@@ -75,8 +75,7 @@ export default function Button() {
           <button type="button" className="btn btn-secondary">
             4
           </button>
-        </div>
-        <div className="btn-group mr-2" role="group" aria-label="Second group">
+
           <button type="button" className="btn btn-secondary">
             5
           </button>
@@ -86,33 +85,10 @@ export default function Button() {
           <button type="button" className="btn btn-secondary">
             7
           </button>
-        </div>
-        <div className="btn-group mr-2" role="group" aria-label="Third group">
           <button type="button" className="btn btn-secondary">
             8
           </button>
         </div>
-      </div>
-      <h1> Nesting </h1>
-      <p>
-        Place a .btn-group within another .btn-group when you want dropdown
-        menus mixed with a series of buttons.
-      </p>
-      <div
-        className="btn-group"
-        role="group"
-        aria-label="Button group with nested dropdown"
-      >
-        <button type="button" className="btn btn-secondary">
-          1
-        </button>
-        <button type="button" className="btn btn-secondary">
-          2
-        </button>
-
-        <button id="btnGroupDrop1" className="dropdown-toggle">
-          Dropdown
-        </button>
       </div>
     </div>
   );
